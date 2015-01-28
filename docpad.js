@@ -169,15 +169,53 @@ module.exports = {
 
     // List of Sponsors
     sponsors: [
-      {
-        name: "Eventick",
-        logo: "themes/yellow-swan/img/sponsor.png",
-        url: "http://eventick.com.br"
-      }
+        {
+            name: 'Ouro',
+            items: [
+              {
+                name: "Globo.com",
+                logo: "themes/yellow-swan/img/globocom.png",
+                url: "https://github.com/globocom"
+              }
+            ]
+        },
+
+        {
+            name: 'Prata',
+            items: [
+              {
+                name: "CBANET",
+                logo: "themes/yellow-swan/img/cbanet.png",
+                url: "http://cbanet.com.br/"
+              }
+            ]
+        },
+
+        {
+            name: 'Bronze',
+            items: [
+              {
+                name: "RCF Inovações",
+                logo: "themes/yellow-swan/img/rcf.png",
+                url: "http://rcfinovacoes.com.br/"
+              }
+            ]
+        }
+
     ],
 
     // List of Partners
     partners: [
+      {
+        name: "8bits_ propaganda",
+        logo: "themes/yellow-swan/img/8bits.png",
+        url: "http://8bitspropaganda.com.br"
+      },
+      {
+        name: "Eventick",
+        logo: "themes/yellow-swan/img/sponsor.png",
+        url: "http://eventick.com.br"
+      },
       {
         name: "BrazilJS",
         logo: "themes/yellow-swan/img/partner.png",
