@@ -1,12 +1,15 @@
 <!-- NAVIGATION -->
 <nav id="nav">
-  <ul class="wrapper">
-    <% for section in @sections : %>
-      <li class="nav-item">
-        <a href="#<%= section %>" title="<%= @labels[section] %>" class="nav-link"><%= @labels[section] %></a>
-      </li>
-    <% end %>
-  </ul>
+  <div class="wrapper">
+    <ul>
+      <% for section in @sections : %>
+        <li class="nav-item">
+          <a href="#<%= section %>" title="<%= @labels[section] %>" class="nav-link"><%= @labels[section] %></a>
+        </li>
+      <% end %>
+    </ul>
+    <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+  </div>
 </nav>
 
 <hr>

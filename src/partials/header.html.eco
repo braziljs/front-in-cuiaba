@@ -8,7 +8,11 @@
 <header class="header">
   <div class="wrapper">
     <h1 class="logo-name">
-      <a class="logo-link" href="#" title="<%= @conf.name %>" itemprop="name"><%= @conf.name %></a>
+      <a class="logo-link" href="/" title="<%= @conf.name %>" itemprop="name">
+        <svg width="350" height="143">
+          <image xlink:href="<%= @getTheme() %>/img/logo.svg" width="350" height="143"/>
+        </svg>
+      </a>
     </h1>
     <h2 class="tagline"><%= @conf.date %>, <%= @conf.venue %>, <%= @conf.city %></h2>
 
