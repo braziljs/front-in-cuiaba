@@ -18,6 +18,16 @@ module.exports = {
       state: "MT"
     },
 
+    // Facebook buttons
+    // If you don't want this, just remove the fbButtons property
+    fbButtons: {
+        href: "https://www.facebook.com/FrontInCuiaba",
+        layout: "button_count",
+        action: "like",
+        showFaces: true,
+        share: true
+    },
+
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
@@ -44,7 +54,7 @@ module.exports = {
       'about',
       'location',
       'speakers',
-      //'schedule',
+      // 'schedule',
       'sponsors',
       'partners'
       // 'contact'
