@@ -148,8 +148,8 @@ module.exports = {
       {
         name: "Ney Simoões",
         photo: "themes/yellow-swan/img/speaker-ney-simoes.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Facebook",
+        bio: "É desenvolvedor front-end e mobile na empresa CI&T. Atua na área a 5 anos já passou por empresas como e-Construmarket e UOL. Começou a aprender programação por necessidade e se transformou na sua paixão de vida. Entusiasta de CSS acha que a vida pode ser mais bonita com um bom estilo.",
+        company: "CI&T",
         link: {
           href: "https://github.com/neysimoes/",
           text: "@neysimoes"
