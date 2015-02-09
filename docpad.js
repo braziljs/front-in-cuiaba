@@ -8,7 +8,7 @@ module.exports = {
     // Conference info
     conf: {
       name: "FrontInCuiabá",
-      description: "Conference description",
+      description: "Evento de FrontEnd em Cuiabá",
       date: "28 de Março",
       // If your event is free, just comment this line
       price: "R$ 30",
@@ -74,71 +74,90 @@ module.exports = {
     // The entire schedule
     schedule: [
       {
-        name: "Check-in / Breakfast",
+        name: "Welcome Coffee / Credenciamento",
+        time: "8h00"
+      },
+      {
+        name: "Abertura",
         time: "9h00"
       },
       {
-        name: "Linus Torvalds",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Linux Foundation",
+        name: "Davidson Fellipe",
+        photo: "themes/yellow-swan/img/speaker-davidson-fellipe.jpg",
+        bio: "É Front-end engineer na Globo.com, onde já se envolveu com projetos para o Globoesporte.com, Futpédia, Tempo Real, Eu Atleta e Sportv. Bastante envolvido com a comunidade JS, sendo o fundador do Riojs e Pernambucojs, além de organizar os eventos Front in BH e Front in Recife. Graduado em engenharia da computação pela UPE, técnico em eletrônica pelo IFPE e Mestrando em Ciência da Computação na PUC-Rio.",
+        company: "Globo.com",
         link: {
-          href: "http://twitter.com/linus",
-          text: "@linus"
+          href: "http://github.com/davidsonfellipe",
+          text: "@davidsonfellipe"
         },
         presentation: {
-          title: "Digging into a Linux Kernel",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "10h00"
+          title: "",
+          description: "",
+          time: "09h20"
         }
       },
       {
-        name: "Bill Gates",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Microsoft",
+        name: "Almir Filho",
+        photo: "themes/yellow-swan/img/speaker-almir-filho.jpg",
+        bio: "Desenvolvedor web na Globo.com e co-fundador do Loop Infinito, onde compartilha seu conhecimento, experiências e pensamentos sobre front-end. Possui mestrado em Ciência da Computação, é entusiasta e extremamente interessado pelo mundo dos padrões web e produtividade. Artista de sanduíches nas horas vagas.",
+        company: "Globo.com",
         link: {
-          href: "http://github.com/billy95",
-          text: "@billy95"
+          href: "http://twitter.com/almirfilho",
+          text: "@almirfilho"
         },
         presentation: {
-          title: "Introducing Windows 12",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+          title: "",
+          description: "",
+          time: "10h10"
+        }
+      },
+      {
+        name: "Alvaro Viebranz",
+        photo: "themes/yellow-swan/img/speaker-alvaro-viebranz.jpg",
+        bio: "Recém formado pela UFMT, com estudos na área de banco de dados NoSQL e buscas textuais, focando nos diferentes tipos de modelos de dados que podem ser utilizados para complementar o modelo relacional que conhecemos. Possui experiência com Java e mais recentemente com Ruby e NodeJS. Atualmente trabalha como Analista de TI na Secretaria de Fazenda na área de Business Intelligence.",
+        company: "Secretaria de Fazenda do Estado de Mato Grosso",
+        link: {
+          href: "http://www.twitter.com/alvinhuuu",
+          text: "@alvinhuu"
+        },
+        presentation: {
+          title: "",
+          description: "",
           time: "11h00"
         }
       },
       {
-        name: "Lunch",
-        time: "12h00"
+        name: "Almoço",
+        time: "11h50"
       },
       {
-        name: "Chuck Norris",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Delta Command",
+        name: "Fabian Carlos",
+        photo: "themes/yellow-swan/img/speaker-fabian-carlos.jpg",
+        bio: "Desenvolvedor \"on demand\" apaixonado por Front-end e Back-end, desensolve para web e mobile. Possui experiência com ferramentas de alta produtividade e escalabilidade como Ruby/Rails, Nodejs, Backbonejs, Angularjs, MongoDB. Vem atuando principalmente no desenvolvimento para Startups da região.",
+        company: "MeoAPP",
         link: {
-          href: "http://twitter.com/littlechuck",
-          text: "@littlechuck"
+          href: "https://github.com/fabiancarlos",
+          text: "@fabiancarlos"
         },
         presentation: {
-          title: "How to kill a elephant with one finger",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "13h00"
+          title: "",
+          description: "",
+          time: "13h50"
         }
       },
       {
-        name: "Steve Jobs",
-        photo: "themes/yellow-swan/img/speaker.jpg",
+        name: "Ney Simoões",
+        photo: "themes/yellow-swan/img/speaker-ney-simoes.jpg",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
+        company: "Facebook",
         link: {
-          href: "http://github.com/stevie",
-          text: "@stevie"
+          href: "https://github.com/neysimoes/",
+          text: "@neysimoes"
         },
         presentation: {
-          title: "Presenting iPad",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "14h00"
+          title: "",
+          description: "",
+          time: "14h10"
         }
       },
       {
@@ -146,45 +165,49 @@ module.exports = {
         time: "15h00"
       },
       {
-        name: "Mark Zuckerberg",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Facebook",
+        name: "Dhyego Fernando",
+        photo: "themes/yellow-swan/img/speaker-dhyego-fernando.jpg",
+        bio: "Atualmente com 18 anos, é desenvolvedor web front e back-end apaixonado no que faz e fissurado em solucionar problemas com boas práticas e um bom código. Sempre buscou enfrentar novos desafios, conhecer e utilizar novas tecnologias pois acredita que um bom desenvolvedor não deve ser rotulado.",
+        company: "WebFlavia",
         link: {
-          href: "http://twitter.com/zuck",
-          text: "@zuck"
+          href: "https://github.com/dhyegofernando",
+          text: "@dhyegofernando"
         },
         presentation: {
-          title: "Revealing Facebook Secrets",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "16h00"
+          title: "",
+          description: "",
+          time: "15h30"
         }
       },
       {
-        name: "Steve Wozniak",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
-        link: {
-          href: "http://twitter.com/woz",
-          text: "@woz"
-        },
-        presentation: {
-          title: "Why do I prefer Android over iPhone",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "17h00"
-        }
-      }
+        name: "Mesa Redonda",
+        time: "16h20"
+      },
+      {
+        name: "Sorteios",
+        time: "17h00"
+      },
+      {
+        name: "Encerramento",
+        time: "17h40"
+      },
+
     ],
 
     // List of Sponsors
     sponsors: [
         {
+            name: 'Diamante',
+            items: [
+            ]
+        },
+
+        {
             name: 'Ouro',
             items: [
               {
                 name: "Globo.com",
-                logo: "themes/yellow-swan/img/globocom.png",
+                logo: "themes/yellow-swan/img/sponsor-globocom.png",
                 url: "https://github.com/globocom"
               }
             ]
@@ -195,8 +218,13 @@ module.exports = {
             items: [
               {
                 name: "CBANET",
-                logo: "themes/yellow-swan/img/cbanet.png",
+                logo: "themes/yellow-swan/img/sponsor-cbanet.png",
                 url: "http://cbanet.com.br/"
+              },
+              {
+                name: "TreinaWeb",
+                logo: "themes/yellow-swan/img/sponsor-treinaweb.jpg",
+                url: "https://www.treinaweb.com.br/"
               }
             ]
         },
@@ -206,7 +234,7 @@ module.exports = {
             items: [
               {
                 name: "RCF Inovações",
-                logo: "themes/yellow-swan/img/rcf.png",
+                logo: "themes/yellow-swan/img/sponsor-rcf-inovacoes.png",
                 url: "http://rcfinovacoes.com.br/"
               }
             ]
@@ -218,18 +246,23 @@ module.exports = {
     partners: [
       {
         name: "8bits_ propaganda",
-        logo: "themes/yellow-swan/img/8bits.png",
+        logo: "themes/yellow-swan/img/partner-8bits-propaganda.png",
         url: "http://8bitspropaganda.com.br"
       },
       {
         name: "Eventick",
-        logo: "themes/yellow-swan/img/sponsor.png",
+        logo: "themes/yellow-swan/img/partner-eventick.png",
         url: "http://eventick.com.br"
       },
       {
         name: "BrazilJS",
-        logo: "themes/yellow-swan/img/partner.png",
+        logo: "themes/yellow-swan/img/partner-braziljs.png",
         url: "http://braziljs.org"
+      },
+      {
+        name: "Vá Nesta Direção",
+        logo: "themes/yellow-swan/img/partner-va-nesta-direcao.png",
+        url: "http://vanestadirecao.com/"
       }
     ],
 
