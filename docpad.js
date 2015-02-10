@@ -236,6 +236,12 @@ module.exports = {
                 name: "RCF Inovações",
                 logo: "themes/yellow-swan/img/sponsor-rcf-inovacoes.png",
                 url: "http://rcfinovacoes.com.br/"
+              },
+
+              {
+                name: "Procurix",
+                logo: "themes/yellow-swan/img/sponsor-procurix.jpg",
+                url: "http://www.procurix.com.br/"
               }
             ]
         }
