@@ -16,6 +16,13 @@
         marker: 'themes/yellow-swan/img/marker-default.png'
     };
 
+    // Helpers
+    conf.helpers = {
+        isTouchDevice: function() {
+            return ('ontouchstart' in window || window.DocumentTouch && document instanceof DocumentTouch);
+        }
+    };
+
     // Google Maps configs
     conf.map.init = function ($element) {
         conf.map.element = $element;
@@ -32,6 +39,11 @@
             labels: true,
             mapTypeId: google.maps.MapTypeId.ROADMAP
         };
+
+        if (conf.helpers.isTouchDevice()) {
+            conf.map.options['draggable'] = false;
+            conf.map.options['disableDoubleClickZoom'] = true;
+        }
 
         conf.map.canvas = new google.maps.Map(conf.map.element.get(0), conf.map.options);
         conf.map.canvas.setCenter(conf.map.latlng);
