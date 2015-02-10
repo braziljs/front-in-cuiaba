@@ -266,6 +266,11 @@ module.exports = {
         url: "http://braziljs.org"
       },
       {
+        name: "yoDojo",
+        logo: "themes/yellow-swan/img/partner-yodojo.jpg",
+        url: "https://www.facebook.com/yohacking"
+      },
+      {
         name: "Vá Nesta Direção",
         logo: "themes/yellow-swan/img/partner-va-nesta-direcao.png",
         url: "http://vanestadirecao.com/"
