@@ -8,7 +8,7 @@ module.exports = {
     // Conference info
     conf: {
       name: "FrontInCuiabá",
-      description: "Evento de FrontEnd em Cuiabá",
+      description: "O FrontInCuiabá é um evento que nasceu com o intuito de propagar conhecimento e as novas técnicas para desenvolvimento web. Fazemos parte de um movimento que acontece por muitas cidades brasileiras que por onde passa é um grande sucesso. Abordamos especialmente assuntos Front-End Web e Mobile.",
       date: "28 de Março",
       // If your event is free, just comment this line
       price: "R$ 30",
