@@ -114,7 +114,7 @@ module.exports = {
       {
         name: "Alvaro Viebranz",
         photo: "themes/yellow-swan/img/speaker-alvaro-viebranz.jpg",
-        bio: "Recém formado pela UFMT, com estudos na área de banco de dados NoSQL e buscas textuais, focando nos diferentes tipos de modelos de dados que podem ser utilizados para complementar o modelo relacional que conhecemos. Possui experiência com Java e mais recentemente com Ruby e NodeJS. Atualmente trabalha como Analista de TI na Secretaria de Fazenda na área de Business Intelligence.",
+        bio: "É Analista de BI na Sefaz-MT e CTO da startup cuiabana Procurix. Graduado pela UFMT em Ciência da Computação, com estudos na área de banco de dados NoSQL e buscas textuais. Curte muito desenvolvimento web, com foco maior no back-end, mas é entusiasta com front-end em AngularJS. É apaixonado por desenvolvimento mobile utilizando tanto tecnologias hibridas quanto nativas.  Arduinista nas horas vagas.",
         company: "Secretaria de Fazenda do Estado de Mato Grosso",
         link: {
           href: "http://www.twitter.com/alvinhuuu",
@@ -133,7 +133,7 @@ module.exports = {
       {
         name: "Fabian Carlos",
         photo: "themes/yellow-swan/img/speaker-fabian-carlos.jpg",
-        bio: "Desenvolvedor \"on demand\" apaixonado por Front-end e Back-end, desensolve para web e mobile. Possui experiência com ferramentas de alta produtividade e escalabilidade como Ruby/Rails, Nodejs, Backbonejs, Angularjs, MongoDB. Vem atuando principalmente no desenvolvimento para Startups da região.",
+        bio: "Desenvolvedor \"on demand\" apaixonado por Front-end e Back-end, desenvolve para web e mobile. Possui experiência com ferramentas de alta produtividade e escalabilidade como Ruby/Rails, Nodejs, Backbonejs, Angularjs, MongoDB. Vem atuando principalmente no desenvolvimento para Startups da região.",
         company: "MeoAPP",
         link: {
           href: "https://github.com/fabiancarlos",
@@ -146,7 +146,7 @@ module.exports = {
         }
       },
       {
-        name: "Ney Simoões",
+        name: "Ney Simões",
         photo: "themes/yellow-swan/img/speaker-ney-simoes.jpg",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
         company: "Facebook",
