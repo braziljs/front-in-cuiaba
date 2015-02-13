@@ -54,7 +54,7 @@ module.exports = {
       'about',
       'location',
       'speakers',
-      // 'schedule',
+      'schedule',
       'sponsors',
       'partners'
       // 'contact'
@@ -75,40 +75,25 @@ module.exports = {
     schedule: [
       {
         name: "Welcome Coffee / Credenciamento",
-        time: "8h00"
+        time: "08h00"
       },
       {
         name: "Abertura",
-        time: "9h00"
+        time: "09h00"
       },
       {
-        name: "Davidson Fellipe",
-        photo: "themes/yellow-swan/img/speaker-davidson-fellipe.jpg",
-        bio: "É Front-end engineer na Globo.com, onde já se envolveu com projetos para o Globoesporte.com, Futpédia, Tempo Real, Eu Atleta e Sportv. Bastante envolvido com a comunidade JS, sendo o fundador do Riojs e Pernambucojs, além de organizar os eventos Front in BH e Front in Recife. Graduado em engenharia da computação pela UPE, técnico em eletrônica pelo IFPE e Mestrando em Ciência da Computação na PUC-Rio.",
-        company: "Globo.com",
+        name: "Ney Simões",
+        photo: "themes/yellow-swan/img/speaker-ney-simoes.jpg",
+        bio: "É desenvolvedor front-end e mobile na empresa CI&T. Atua na área a 5 anos já passou por empresas como e-Construmarket e UOL. Começou a aprender programação por necessidade e se transformou na sua paixão de vida. Entusiasta de CSS acha que a vida pode ser mais bonita com um bom estilo.",
+        company: "CI&T",
         link: {
-          href: "http://github.com/davidsonfellipe",
-          text: "@davidsonfellipe"
+          href: "https://github.com/neysimoes/",
+          text: "@neysimoes"
         },
         presentation: {
           title: "",
           description: "",
           time: "09h20"
-        }
-      },
-      {
-        name: "Almir Filho",
-        photo: "themes/yellow-swan/img/speaker-almir-filho.jpg",
-        bio: "Desenvolvedor web na Globo.com e co-fundador do Loop Infinito, onde compartilha seu conhecimento, experiências e pensamentos sobre front-end. Possui mestrado em Ciência da Computação, é entusiasta e extremamente interessado pelo mundo dos padrões web e produtividade. Artista de sanduíches nas horas vagas.",
-        company: "Globo.com",
-        link: {
-          href: "http://twitter.com/almirfilho",
-          text: "@almirfilho"
-        },
-        presentation: {
-          title: "",
-          description: "",
-          time: "10h10"
         }
       },
       {
@@ -119,6 +104,21 @@ module.exports = {
         link: {
           href: "http://www.twitter.com/alvinhuuu",
           text: "@alvinhuu"
+        },
+        presentation: {
+          title: "",
+          description: "",
+          time: "10h10"
+        }
+      },
+      {
+        name: "Almir Filho",
+        photo: "themes/yellow-swan/img/speaker-almir-filho.jpg",
+        bio: "Desenvolvedor web na Globo.com e co-fundador do Loop Infinito, onde compartilha seu conhecimento, experiências e pensamentos sobre front-end. Possui mestrado em Ciência da Computação, é entusiasta e extremamente interessado pelo mundo dos padrões web e produtividade. Artista de sanduíches nas horas vagas.",
+        company: "Globo.com",
+        link: {
+          href: "http://twitter.com/almirfilho",
+          text: "@almirfilho"
         },
         presentation: {
           title: "",
@@ -146,25 +146,6 @@ module.exports = {
         }
       },
       {
-        name: "Ney Simões",
-        photo: "themes/yellow-swan/img/speaker-ney-simoes.jpg",
-        bio: "É desenvolvedor front-end e mobile na empresa CI&T. Atua na área a 5 anos já passou por empresas como e-Construmarket e UOL. Começou a aprender programação por necessidade e se transformou na sua paixão de vida. Entusiasta de CSS acha que a vida pode ser mais bonita com um bom estilo.",
-        company: "CI&T",
-        link: {
-          href: "https://github.com/neysimoes/",
-          text: "@neysimoes"
-        },
-        presentation: {
-          title: "",
-          description: "",
-          time: "14h10"
-        }
-      },
-      {
-        name: "Coffee-break",
-        time: "15h00"
-      },
-      {
         name: "Dhyego Fernando",
         photo: "themes/yellow-swan/img/speaker-dhyego-fernando.jpg",
         bio: "Atualmente com 18 anos, é desenvolvedor web front e back-end apaixonado no que faz e fissurado em solucionar problemas com boas práticas e um bom código. Sempre buscou enfrentar novos desafios, conhecer e utilizar novas tecnologias pois acredita que um bom desenvolvedor não deve ser rotulado.",
@@ -174,9 +155,28 @@ module.exports = {
           text: "@dhyegofernando"
         },
         presentation: {
+          title: "Modularização com AngularJS",
+          description: "Muitos acoplamentos podem tornar sua aplicação complicada de se manter. Esta palestra irá abordar soluções inteligentes com AngularJS para resolver de forma ágil este problema.",
+          time: "14h10"
+        }
+      },
+      {
+        name: "Coffee-break",
+        time: "15h00"
+      },
+      {
+        name: "Davidson Fellipe",
+        photo: "themes/yellow-swan/img/speaker-davidson-fellipe.jpg",
+        bio: "É Front-end engineer na Globo.com, onde já se envolveu com projetos para o Globoesporte.com, Futpédia, Tempo Real, Eu Atleta e Sportv. Bastante envolvido com a comunidade JS, sendo o fundador do Riojs e Pernambucojs, além de organizar os eventos Front in BH e Front in Recife. Graduado em engenharia da computação pela UPE, técnico em eletrônica pelo IFPE e Mestrando em Ciência da Computação na PUC-Rio.",
+        company: "Globo.com",
+        link: {
+          href: "http://github.com/davidsonfellipe",
+          text: "@davidsonfellipe"
+        },
+        presentation: {
           title: "",
           description: "",
-          time: "15h30"
+          time: "15h50"
         }
       },
       {
