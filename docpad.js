@@ -99,7 +99,7 @@ module.exports = {
       {
         name: "Alvaro Viebranz",
         photo: "themes/yellow-swan/img/speaker-alvaro-viebranz.jpg",
-        bio: "É Analista de BI na Sefaz-MT e CTO da startup cuiabana Procurix. Graduado pela UFMT em Ciência da Computação, com estudos na área de banco de dados NoSQL e buscas textuais. Curte muito desenvolvimento web, com foco maior no back-end, mas é entusiasta com front-end em AngularJS. É apaixonado por desenvolvimento mobile utilizando tanto tecnologias hibridas quanto nativas.  Arduinista nas horas vagas.",
+        bio: "É Analista de TI na Sefaz-MT e CTO da startup cuiabana Procurix. Graduado pela UFMT em Ciência da Computação, com estudos na área de banco de dados NoSQL e buscas textuais. Curte muito desenvolvimento web, com foco maior no back-end, mas é entusiasta com front-end em AngularJS. É apaixonado por desenvolvimento mobile utilizando tanto tecnologias hibridas quanto nativas.  Arduinista nas horas vagas.",
         company: "Secretaria de Fazenda do Estado de Mato Grosso",
         link: {
           href: "http://www.twitter.com/alvinhuuu",
