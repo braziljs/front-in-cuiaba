@@ -106,8 +106,8 @@ module.exports = {
           text: "@alvinhuu"
         },
         presentation: {
-          title: "",
-          description: "",
+          title: "Construindo Aplicativos Híbridos com Ionic Framework",
+          description: "Na tentativa de padronizar uma forma de se desenvolver aplicativo híbridos, nasceu o Ionic Framework, focado em padrões modernos (HTML5, CSS e JS), performance e facilidade de uso.",
           time: "10h10"
         }
       },

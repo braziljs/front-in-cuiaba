@@ -1,5 +1,5 @@
 <h2 class="section-title"><%= @labels['schedule'] %></h2>
-<p></p>
+<p>Confira aqui a programação para o FrontInCuiabá 2015.</p>
 <div class="schedule-tbl">
   <table>
     <thead>
