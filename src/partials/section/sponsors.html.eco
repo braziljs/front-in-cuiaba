@@ -6,7 +6,7 @@
 <ul class="sponsors-list sponsor-<%= sponsorType.name.toLowerCase() %>">
 <% for sponsor in sponsorType.items: %>
   <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
-    <a href="<%= sponsor.url %>" class="sponsor-logo sponsor--link" itemprop="url">
+    <a href="<%= sponsor.url %>?utm_source=frontincuiaba2015" class="sponsor-logo sponsor--link" itemprop="url">
       <img src="<%= sponsor.logo %>" alt="<%= sponsor.name %>" class="photo" itemprop="image">
     </a>
   </li>
