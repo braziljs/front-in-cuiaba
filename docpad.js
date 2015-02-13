@@ -242,6 +242,12 @@ module.exports = {
                 name: "Procurix",
                 logo: "themes/yellow-swan/img/sponsor-procurix.jpg",
                 url: "http://www.procurix.com.br/"
+              },
+
+              {
+                name: "Nuvem Tecnologia",
+                logo: "themes/yellow-swan/img/sponsor-nuvem.png",
+                url: "http://www.nuvem.net/"
               }
             ]
         }
