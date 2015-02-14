@@ -121,8 +121,8 @@ module.exports = {
           text: "@almirfilho"
         },
         presentation: {
-          title: "",
-          description: "",
+          title: "Padrões Throttle e Debounce em Aplicações Web",
+          description: "Padrões Throttle e Debounce em Aplicações Web. Onde, quando e porque utilizá-los? Eles podem resolver alguns problemas que comprometem o desempenho de uma aplicação web inteira devido ao mau uso dos eventos.",
           time: "11h00"
         }
       },
