@@ -174,8 +174,8 @@ module.exports = {
           text: "@davidsonfellipe"
         },
         presentation: {
-          title: "",
-          description: "",
+          title: "Guia do Front-end das Galáxias",
+          description: "Como encarar os desafios da área de desenvolvimento front-end para web, esse campo que é cheio de grandes desafios, sejam eles voltados para dispositivos, browsers, resoluções... Então, quais frameworks, ferramentas e bibliotecas são relevantes para aprimorar sua forma de trabalho? Venha conhecer 42 dicas para trabalhar mais feliz.",
           time: "15h50"
         }
       },
