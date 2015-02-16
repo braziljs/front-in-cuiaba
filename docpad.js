@@ -248,6 +248,12 @@ module.exports = {
                 name: "Nuvem Tecnologia",
                 logo: "themes/yellow-swan/img/sponsor-nuvem.png",
                 url: "http://www.nuvem.net/"
+              },
+
+              {
+                name: "8bits_ propaganda",
+                logo: "themes/yellow-swan/img/partner-8bits-propaganda.png",
+                url: "http://8bitspropaganda.com.br/"
               }
             ]
         }
@@ -256,11 +262,6 @@ module.exports = {
 
     // List of Partners
     partners: [
-      {
-        name: "8bits_ propaganda",
-        logo: "themes/yellow-swan/img/partner-8bits-propaganda.png",
-        url: "http://8bitspropaganda.com.br/"
-      },
       {
         name: "Eventick",
         logo: "themes/yellow-swan/img/partner-eventick.png",
