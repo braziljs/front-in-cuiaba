@@ -82,21 +82,6 @@ module.exports = {
         time: "09h00"
       },
       {
-        name: "Ney Simões",
-        photo: "themes/yellow-swan/img/speaker-ney-simoes.jpg",
-        bio: "É desenvolvedor front-end e mobile na empresa CI&T. Atua na área a 5 anos já passou por empresas como e-Construmarket e UOL. Começou a aprender programação por necessidade e se transformou na sua paixão de vida. Entusiasta de CSS acha que a vida pode ser mais bonita com um bom estilo.",
-        company: "CI&T",
-        link: {
-          href: "https://github.com/neysimoes/",
-          text: "@neysimoes"
-        },
-        presentation: {
-          title: "Arquitetura CSS",
-          description: "Arquitetura CSS é uma das partes mais importantes do front-end, pode não parecer mas num projeto mal estruturado podemos perder mais tempo estilizando do que programando a lógica. Tendo percebido isso vários desenvolvedores no mundo desenvolveram técnicas para uma arquitetura sólida do CSS.",
-          time: "09h20"
-        }
-      },
-      {
         name: "Alvaro Viebranz",
         photo: "themes/yellow-swan/img/speaker-alvaro-viebranz.jpg",
         bio: "É Analista de TI na Sefaz-MT e CTO da startup cuiabana Procurix. Graduado pela UFMT em Ciência da Computação, com estudos na área de banco de dados NoSQL e buscas textuais. Curte muito desenvolvimento web, com foco maior no back-end, mas é entusiasta com front-end em AngularJS. É apaixonado por desenvolvimento mobile utilizando tanto tecnologias hibridas quanto nativas.  Arduinista nas horas vagas.",
@@ -108,6 +93,21 @@ module.exports = {
         presentation: {
           title: "Construindo Aplicativos Híbridos com Ionic Framework",
           description: "Na tentativa de padronizar uma forma de se desenvolver aplicativo híbridos, nasceu o Ionic Framework, focado em padrões modernos (HTML5, CSS e JS), performance e facilidade de uso.",
+          time: "09h20"
+        }
+      },
+      {
+        name: "Ney Simões",
+        photo: "themes/yellow-swan/img/speaker-ney-simoes.jpg",
+        bio: "É desenvolvedor front-end e mobile na empresa CI&T. Atua na área a 5 anos já passou por empresas como e-Construmarket e UOL. Começou a aprender programação por necessidade e se transformou na sua paixão de vida. Entusiasta de CSS acha que a vida pode ser mais bonita com um bom estilo.",
+        company: "CI&T",
+        link: {
+          href: "https://github.com/neysimoes/",
+          text: "@neysimoes"
+        },
+        presentation: {
+          title: "Arquitetura CSS",
+          description: "Arquitetura CSS é uma das partes mais importantes do front-end, pode não parecer mas num projeto mal estruturado podemos perder mais tempo estilizando do que programando a lógica. Tendo percebido isso vários desenvolvedores no mundo desenvolveram técnicas para uma arquitetura sólida do CSS.",
           time: "10h10"
         }
       },
