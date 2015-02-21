@@ -140,8 +140,8 @@ module.exports = {
           text: "@fabiancarlos"
         },
         presentation: {
-          title: "",
-          description: "",
+          title: "Javascript: The Good, Bad and Ugly parts",
+          description: "Todas linguagens tem suas partes boas e ruins, e com Javascript a coisa pode ficar realmente feia se for mal compreendida. Vamos falar de como surgiu e que rumo tomou até os dias de hoje de uma amada e odiada linguagem, o Javascript.",
           time: "13h50"
         }
       },
