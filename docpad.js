@@ -134,7 +134,7 @@ module.exports = {
         name: "Fabian Carlos",
         photo: "themes/yellow-swan/img/speaker-fabian-carlos.jpg",
         bio: "Desenvolvedor \"on demand\" apaixonado por Front-end e Back-end, desenvolve para web e mobile. Possui experiência com ferramentas de alta produtividade e escalabilidade como Ruby/Rails, Nodejs, Backbonejs, Angularjs, MongoDB. Vem atuando principalmente no desenvolvimento para Startups da região.",
-        company: "MeoAPP",
+        company: "MeoApp",
         link: {
           href: "https://github.com/fabiancarlos",
           text: "@fabiancarlos"
