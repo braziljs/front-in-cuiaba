@@ -121,8 +121,8 @@ module.exports = {
           text: "@almirfilho"
         },
         presentation: {
-          title: "Padrões Throttle e Debounce em Aplicações Web",
-          description: "Padrões Throttle e Debounce em Aplicações Web. Onde, quando e porque utilizá-los? Eles podem resolver alguns problemas que comprometem o desempenho de uma aplicação web inteira devido ao mau uso dos eventos.",
+          title: "Esse cara é o grunt",
+          description: "♫ O cara que observa seus arquivos toda hora O cara que te avisa quando você quebra o build O cara que faz o reload por você O cara que após o save, te chama Pra dizer se o teste passou ou quebrou Esse cara é o Grunt!",
           time: "11h00"
         }
       },
