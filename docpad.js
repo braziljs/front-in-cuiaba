@@ -273,6 +273,11 @@ module.exports = {
         url: "http://braziljs.org"
       },
       {
+        name: "Caelum",
+        logo: "themes/yellow-swan/img/partner-caelum.png",
+        url: "https://www.caelum.com.br/"
+      },
+      {
         name: "yoDojo",
         logo: "themes/yellow-swan/img/partner-yodojo.jpg",
         url: "https://www.facebook.com/yohacking"
