@@ -74,12 +74,12 @@ module.exports = {
     // The entire schedule
     schedule: [
       {
-        name: "Welcome Coffee / Credenciamento",
+        name: "Credenciamento / Abertura",
         time: "08h00"
       },
       {
-        name: "Abertura",
-        time: "09h00"
+        name: "Credenciamento / Welcome Coffee",
+        time: "08h10"
       },
       {
         name: "Alvaro Viebranz",
@@ -93,7 +93,7 @@ module.exports = {
         presentation: {
           title: "Construindo Aplicativos Híbridos com Ionic Framework",
           description: "Na tentativa de padronizar uma forma de se desenvolver aplicativo híbridos, nasceu o Ionic Framework, focado em padrões modernos (HTML5, CSS e JS), performance e facilidade de uso.",
-          time: "09h20"
+          time: "08h30"
         }
       },
       {
@@ -108,7 +108,7 @@ module.exports = {
         presentation: {
           title: "Arquitetura CSS",
           description: "Arquitetura CSS é uma das partes mais importantes do front-end, pode não parecer mas num projeto mal estruturado podemos perder mais tempo estilizando do que programando a lógica. Tendo percebido isso vários desenvolvedores no mundo desenvolveram técnicas para uma arquitetura sólida do CSS.",
-          time: "10h10"
+          time: "09h30"
         }
       },
       {
@@ -123,12 +123,12 @@ module.exports = {
         presentation: {
           title: "Esse cara é o grunt",
           description: "♫ O cara que observa seus arquivos toda hora O cara que te avisa quando você quebra o build O cara que faz o reload por você O cara que após o save, te chama Pra dizer se o teste passou ou quebrou Esse cara é o Grunt!",
-          time: "11h00"
+          time: "10h30"
         }
       },
       {
         name: "Almoço",
-        time: "11h50"
+        time: "11h30"
       },
       {
         name: "Fabian Carlos",
@@ -142,7 +142,7 @@ module.exports = {
         presentation: {
           title: "Javascript: The Good, Bad and Ugly parts",
           description: "Todas linguagens tem suas partes boas e ruins, e com Javascript a coisa pode ficar realmente feia se for mal compreendida. Vamos falar de como surgiu e que rumo tomou até os dias de hoje de uma amada e odiada linguagem, o Javascript.",
-          time: "13h50"
+          time: "13h00"
         }
       },
       {
@@ -157,12 +157,12 @@ module.exports = {
         presentation: {
           title: "Modularização com AngularJS",
           description: "Muitos acoplamentos podem tornar sua aplicação complicada de se manter. Esta palestra irá abordar soluções inteligentes com AngularJS para resolver de forma ágil este problema.",
-          time: "14h10"
+          time: "13h50"
         }
       },
       {
         name: "Coffee-break",
-        time: "15h00"
+        time: "14h40"
       },
       {
         name: "Davidson Fellipe",
@@ -176,20 +176,35 @@ module.exports = {
         presentation: {
           title: "Guia do Front-end das Galáxias",
           description: "Como encarar os desafios da área de desenvolvimento front-end para web, esse campo que é cheio de grandes desafios, sejam eles voltados para dispositivos, browsers, resoluções... Então, quais frameworks, ferramentas e bibliotecas são relevantes para aprimorar sua forma de trabalho? Venha conhecer 42 dicas para trabalhar mais feliz.",
-          time: "15h50"
+          time: "15h10"
+        }
+      },
+      {
+        name: "Karuan Bertoluci",
+        photo: "themes/yellow-swan/img/speaker-karuan-bertoluci.jpg",
+        bio: "User Interface Designer há 6 anos. Passou por agências de publicidade e hoje atua no mercado de startups trabalhando com desenvolvimento de produtos web/mobile e tecnologia. Sempre se dedicou no processo de design, necessidades de usuários e metodologias de desenvolvimento, com isso pode aplicar e ganhar muito conhecimento em cada projeto que passou.",
+        company: "CI&T",
+        link: {
+          href: "http://twitter.com/karuanbertoluci",
+          text: "@karuanbertoluci"
+        },
+        presentation: {
+          title: "Inovação & User Experience - Estética ou Funcionalidade?",
+          description: "Qual a ligação de inovação e experiência de usuário? Vamos realizar um breve estudo de caso utilizando a criação de Phillipe Starck: Juicy Salif. Um objeto estranho com um grande apelo visual e apenas uma funcionalidade: Espremer Laranjas. Mas em algum momento o Juicy deixou sua real funcionalidade de lado e hoje atua melhor como uma micro escultura. Isso não faz sentido, faz? Essa palestra faz um tour em algumas ferramentas e metodologias de design para mapear e justificar todos os aspectos do produto em análise.",
+          time: "16h10"
         }
       },
       {
         name: "Mesa Redonda",
-        time: "16h20"
+        time: "17h10"
       },
       {
         name: "Sorteios",
-        time: "17h00"
+        time: "17h40"
       },
       {
         name: "Encerramento",
-        time: "17h40"
+        time: "17h50"
       },
 
     ],
