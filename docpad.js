@@ -182,7 +182,7 @@ module.exports = {
       {
         name: "Karuan Bertoluci",
         photo: "themes/yellow-swan/img/speaker-karuan-bertoluci.jpg",
-        bio: "User Interface Designer há 6 anos. Passou por agências de publicidade e hoje atua no mercado de startups trabalhando com desenvolvimento de produtos web/mobile e tecnologia. Sempre se dedicou no processo de design, necessidades de usuários e metodologias de desenvolvimento, com isso pode aplicar e ganhar muito conhecimento em cada projeto que passou.",
+        bio: "É User Experience designer na CI&T, onde atua com desenvolvimento criativo e inovação. Passou por agências de publicidade e diversas startups trabalhando com desenvolvimento de produtos web/mobile e tecnologia. Estudante e experimentador de processos e metodologias de design para entender melhor o mundo dos usuários. Atualmente organizador do GDG Campinas e DevCast Day e tem como lema: update or die.",
         company: "CI&T",
         link: {
           href: "http://twitter.com/karuanbertoluci",
