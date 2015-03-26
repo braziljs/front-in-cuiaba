@@ -303,7 +303,7 @@ module.exports = {
         url: "http://vanestadirecao.com/"
       },
       {
-        name: "Império Estampas"
+        name: "Império Estampas",
         logo: "themes/yellow-swan/img/partner-imperio.png",
         url: "http://www.imperioestampas.com.br/"
       }
