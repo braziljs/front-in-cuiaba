@@ -251,6 +251,11 @@ module.exports = {
                 name: "TreinaWeb",
                 logo: "themes/yellow-swan/img/sponsor-treinaweb.jpg",
                 url: "https://www.treinaweb.com.br/"
+              },
+              {
+                name: "Tiago de Mattos",
+                logo: "themes/yellow-swan/img/sponsor-tiagodemattos.png",
+                url: "http://tiagodemattos.com.br/index"
               }
             ]
         },
