@@ -79,7 +79,7 @@ module.exports = {
       },
       {
         name: "Juarez Filho",
-        photo: "https://pbs.twimg.com/profile_images/581902805469937664/8Ta-HZZd.jpg",
+        photo: "themes/yellow-swan/img/eventhost-juarezpaf.jpg",
         bio: "Front end Engineer na madewithlove onde constrói produtos com amor, tem mais de 7 anos de experiência, começou sua carreira como desenvolvedor PHP, tentou aprender Java e depois se entregou ao Ruby e Rails, mas com sua primeira classe CSS dedicou-se completamente a carreira de Front End e UX.",
         company: "madewithlove",
         type: "Apresentador",
