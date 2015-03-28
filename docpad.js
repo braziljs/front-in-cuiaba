@@ -11,7 +11,7 @@ module.exports = {
       description: "O FrontInCuiabá é um evento que nasceu com o intuito de propagar conhecimento e as novas técnicas para desenvolvimento web. Fazemos parte de um movimento que acontece por muitas cidades brasileiras que por onde passa é um grande sucesso. Abordamos especialmente assuntos Front-End Web e Mobile.",
       date: "28 de Março",
       // If your event is free, just comment this line
-      price: "R$ 65",
+      //price: "R$ 65",
       venue: "Mato Grosso Palace Hotel",
       address: "Rua Joaquim Murtinho, 170, Centro",
       city: "Cuiabá",
@@ -30,10 +30,10 @@ module.exports = {
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
-    callToAction: {
-        text: "Inscreva-se!",
-        link: "http://eventick.com.br/frontincuiaba"
-    },
+    // callToAction: {
+    //     text: "Inscreva-se!",
+    //     link: "http://eventick.com.br/frontincuiaba"
+    // },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
     forkButton: {
@@ -74,12 +74,23 @@ module.exports = {
     // The entire schedule
     schedule: [
       {
-        name: "Credenciamento / Abertura",
+        name: "Credenciamento / Welcome Coffee",
         time: "08h00"
       },
       {
-        name: "Credenciamento / Welcome Coffee",
-        time: "08h10"
+        name: "Juarez Filho",
+        photo: "https://pbs.twimg.com/profile_images/581902805469937664/8Ta-HZZd.jpg",
+        bio: "Front end Engineer na madewithlove onde constrói produtos com amor, tem mais de 7 anos de experiência, começou sua carreira como desenvolvedor PHP, tentou aprender Java e depois se entregou ao Ruby e Rails, mas com sua primeira classe CSS dedicou-se completamente a carreira de Front End e UX.",
+        company: "madewithlove",
+        type: "Apresentador",
+        link: {
+          href: "http://www.twitter.com/juarezpaf",
+          text: "@juarezpaf"
+        },
+        presentation: {
+          title: "Abertura Front in Cuiabá",
+          time: "08h10"
+        }
       },
       {
         name: "Alvaro Viebranz",
