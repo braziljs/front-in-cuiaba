@@ -104,7 +104,8 @@ module.exports = {
         presentation: {
           title: "Construindo Aplicativos Híbridos com Ionic Framework",
           description: "Na tentativa de padronizar uma forma de se desenvolver aplicativo híbridos, nasceu o Ionic Framework, focado em padrões modernos (HTML5, CSS e JS), performance e facilidade de uso.",
-          time: "08h30"
+          time: "08h30",
+          slide: "http://alvarowolfx.github.io/ionic-present"
         }
       },
       {
@@ -134,7 +135,8 @@ module.exports = {
         presentation: {
           title: "Esse cara é o grunt",
           description: "♫ O cara que observa seus arquivos toda hora O cara que te avisa quando você quebra o build O cara que faz o reload por você O cara que após o save, te chama Pra dizer se o teste passou ou quebrou Esse cara é o Grunt!",
-          time: "10h30"
+          time: "10h30",
+          slide: "https://speakerdeck.com/almirfilho/esse-cara-e-o-grunt"
         }
       },
       {
@@ -168,7 +170,8 @@ module.exports = {
         presentation: {
           title: "Modularização com AngularJS",
           description: "Muitos acoplamentos podem tornar sua aplicação complicada de se manter. Esta palestra irá abordar soluções inteligentes com AngularJS para resolver de forma ágil este problema.",
-          time: "13h50"
+          time: "13h50",
+          slide: "http://dhyegofernando.github.io/modular-angularjs-talk/"
         }
       },
       {
@@ -187,7 +190,8 @@ module.exports = {
         presentation: {
           title: "Guia do Front-end das Galáxias",
           description: "Como encarar os desafios da área de desenvolvimento front-end para web, esse campo que é cheio de grandes desafios, sejam eles voltados para dispositivos, browsers, resoluções... Então, quais frameworks, ferramentas e bibliotecas são relevantes para aprimorar sua forma de trabalho? Venha conhecer 42 dicas para trabalhar mais feliz.",
-          time: "15h10"
+          time: "15h10",
+          slide: "http://www.slideshare.net/davidsonfellipe/guia-do-front-end-das-galaxias"
         }
       },
       {
@@ -202,7 +206,8 @@ module.exports = {
         presentation: {
           title: "Inovação & User Experience - Estética ou Funcionalidade?",
           description: "Qual a ligação de inovação e experiência de usuário? Vamos realizar um breve estudo de caso utilizando a criação de Phillipe Starck: Juicy Salif. Um objeto estranho com um grande apelo visual e apenas uma funcionalidade: Espremer Laranjas. Mas em algum momento o Juicy deixou sua real funcionalidade de lado e hoje atua melhor como uma micro escultura. Isso não faz sentido, faz? Essa palestra faz um tour em algumas ferramentas e metodologias de design para mapear e justificar todos os aspectos do produto em análise.",
-          time: "16h10"
+          time: "16h10",
+          slide: "https://medium.com/@karuanbertoluci/inovacao-e-experiencia-de-usuario-8c7f99bbfb73"
         }
       },
       {
