@@ -120,7 +120,8 @@ module.exports = {
         presentation: {
           title: "Arquitetura CSS",
           description: "Arquitetura CSS é uma das partes mais importantes do front-end, pode não parecer mas num projeto mal estruturado podemos perder mais tempo estilizando do que programando a lógica. Tendo percebido isso vários desenvolvedores no mundo desenvolveram técnicas para uma arquitetura sólida do CSS.",
-          time: "09h30"
+          time: "09h30",
+          slide: "https://medium.com/@neysimes/arquitetura-css-d344fb01dd18"
         }
       },
       {
