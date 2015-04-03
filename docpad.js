@@ -230,12 +230,6 @@ module.exports = {
     // List of Sponsors
     sponsors: [
         {
-            name: 'Diamante',
-            items: [
-            ]
-        },
-
-        {
             name: 'Ouro',
             items: [
               {
