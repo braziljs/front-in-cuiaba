@@ -30,10 +30,10 @@ module.exports = {
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
-    // callToAction: {
-    //     text: "Inscreva-se!",
-    //     link: "http://eventick.com.br/frontincuiaba"
-    // },
+    callToAction: {
+        text: "Certificado de participação!",
+        link: "http://certificado.eventick.com.br/generate/gb6R-Cr3f7xsQE8XBZUVrQ"
+    },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
     forkButton: {
