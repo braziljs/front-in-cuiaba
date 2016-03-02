@@ -6,6 +6,7 @@ html {
   font: 100% "Ubuntu",sans-serif;
   height: 100%;
   box-sizing: border-box;
+  color: #fff;
 }
 
 body {
@@ -34,10 +35,8 @@ body {
     height: auto;
 }
 
-.action a {
+.action a.btn {
     font-size: 1.2em;
-    color: white;
-    text-decoration: none;
     border: 4px solid #fff;
     border-radius: 6px;
     padding: 5px 10px;
@@ -45,7 +44,7 @@ body {
     transition: .3s background;
 }
 
-.action a:hover {
+.action a.btn:hover {
     background-color: #fff;
     color: #0D3B5B;
 }
@@ -54,12 +53,26 @@ body {
     margin-left: 5px;
 }
 
+.old {
+    margin-top: 20px;
+    font-size: .8em;
+}
+
+.old a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+a,a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
 @media screen and (max-width: 480px) {
     .description {
         font-size: .8em;
     }
 
-    .action a {
+    .action a.btn {
         width: 100%;
     }
 
