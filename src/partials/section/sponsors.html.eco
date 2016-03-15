@@ -4,11 +4,16 @@
 <h3><%= sponsorType.name %></h3>
 <ul class="sponsors-list sponsor-<%= sponsorType.name.toLowerCase() %>">
 <% for sponsor in sponsorType.items: %>
-  <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
-    <a href="<%= sponsor.url %>?utm_source=frontincuiaba2015" class="sponsor-logo sponsor--link" itemprop="url">
-      <img src="<%= sponsor.logo %>" alt="<%= sponsor.name %>" class="photo" itemprop="image">
-    </a>
-  </li>
+    <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
+        <a href="<%= sponsor.url %>?utm_source=frontincuiaba2015" class="sponsor-logo sponsor--link" itemprop="url">
+            <img src="<%= sponsor.logo %>" alt="<%= sponsor.name %>" class="photo" itemprop="image">
+        </a>
+    </li>
 <% end %>
+    <li class="sponsor-item">
+        <a class="sponsor-logo sponsor--link sponsor-call" href="mailto:frontincuiaba@gmail.com?subject=Quero%20ser%20um%20Patrocinador">
+            <img src="<%= @getTheme() %>/img/your-logo.jpg" alt="Seja um Patrocinador" class="photo">
+        </a>
+    </li>
 </ul>
 <% end %>
