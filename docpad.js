@@ -7,13 +7,13 @@ module.exports = {
 
     // Conference info
     conf: {
-      name: "FrontInCuiabá",
+      name: "FrontInCuiabá 2016",
       description: "O FrontInCuiabá é um evento que nasceu com o intuito de propagar conhecimento e as novas técnicas para desenvolvimento web. Fazemos parte de um movimento que acontece por muitas cidades brasileiras que por onde passa é um grande sucesso. Abordamos especialmente assuntos Front-End Web e Mobile.",
       date: "16 de Abril",
       // If your event is free, just comment this line
       price: "R$ 45",
-      venue: "Arena Pantanal",
-      address: "Arena Pantanal, Centro",
+      venue: "",
+      address: "Arena Pantanal",
       city: "Cuiabá",
       state: "MT"
   },
@@ -56,15 +56,15 @@ module.exports = {
     // to deactivate comment out with '//'
     // you can also change order here and it will reflect on page
     sections: [
-    'about',
-    'location',
-    'speakers',
-    'schedule',
-    'sponsors',
-    'partners',
-    'realization'
-      // 'contact'
-      ],
+        'about',
+        'location',
+        'speakers',
+        'schedule',
+        'sponsors',
+        'partners',
+        'backstage'
+        // 'contact'
+    ],
 
     // Labels which you can translate to other languages
     labels: {
@@ -75,22 +75,85 @@ module.exports = {
       sponsors: "Patrocinadores",
       partners: "Apoiadores",
       contact: "Contato",
-      realization: "Realização"
+      backstage: "Realização"
   },
 
     // The entire schedule
     schedule: [
     {
-        name: "Credenciamento",
-        time: "07h50"
+        name: "Alongamento",
+        time: "07h50",
+        description: "Os portões se abrem para o alongamento"
     },
     {
         name: "Abertura",
-        time: "08h15"
+        time: "08h10",
+        description: "... e o árbitro já está em campo..."
     },
     {
         name: "Welcome Coffee",
-        time: "08h25"
+        time: "08h20",
+        description: "Foi dado início à partida!"
+    },
+    {
+        name: "Galvão Bueno",
+        time: "08h50",
+        description: "Bem, meus caros amigos, estamos aqui para dar início a mais uma partida ..."
+    },
+    {
+        name: "Suárez",
+        time: "09h40",
+        description: "Rawwwr"
+    },
+    {
+        name: "Vampeta",
+        time: "10h20",
+        description: "Manda nudez?!"
+    },
+    {
+        name: "Intervalo",
+        time: "11h00",
+        description: "Fim do primeiro tempo"
+    },
+    {
+        name: "Cláudio Taffarel",
+        time: "13h00",
+        description: "Sai que é tua!"
+    },
+    {
+        name: "Ronaldinho Gaucho",
+        time: "13h50",
+        description: "Faz o sinal do hand-loose"
+    },
+    {
+        name: "Neymar Junior",
+        time: "14h40",
+        description: "... e o árbitro marca falta!"
+    },
+    {
+        name: "Intervalo",
+        time: "15h30",
+        description: "Fim do segundo tempo"
+    },
+    {
+        name: "Pelé",
+        time: "16h00",
+        description: "Não, eu sou o Jô Soares..."
+    },
+    {
+        name: "Mesa Redonda",
+        time: "16h50",
+        description: "Fim do bate-bola, vamos ao terceiro tempo"
+    },
+    {
+        name: "Sorteios",
+        time: "17h30",
+        description: "Quem quer o Gol de Ouro?"
+    },
+    {
+        name: "Encerramento",
+        time: "18h00",
+        description: "As luzes do estádio se apagam."
     }
     ],
 
@@ -135,15 +198,15 @@ module.exports = {
     },
     ],
 
-    realization: [
+    backstage: [
     {
         name : "Desenvolvedores do Mato Grosso",
-        logo: "themes/yellow-swan/img/realization-devmt.png",
+        logo: "themes/yellow-swan/img/backstage-devmt.png",
         url: "#"
     },
     {
         name: "Gabinete de Assuntos Estratégicos",
-        logo: "themes/yellow-swan/img/realization-gae.png",
+        logo: "themes/yellow-swan/img/backstage-gae.png",
         url: "http://www.mt.gov.br"
     }
     ],

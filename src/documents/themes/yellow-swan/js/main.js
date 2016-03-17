@@ -52,7 +52,7 @@
     };
 
     conf.map.createMarker = function () {
-        
+
         conf.map.address = conf.map.element.attr('data-address');
 
         conf.map.geocoder.geocode({ 'address': conf.map.address}, function (results, status) {
@@ -98,7 +98,7 @@
         var $link = $(link),
             href = $link.attr('href'),
             offSetTop = $(href).offset().top;
-        
+
         conf.menu.document.finish().animate({scrollTop : offSetTop}, conf.menu.animationSpeed, function () {
             location.hash = href;
         });

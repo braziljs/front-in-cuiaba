@@ -1,8 +1,8 @@
-<h2 class="section-title"><%= @labels['realization'] %></h2>
+<h2 class="section-title"><%= @labels['backstage'] %></h2>
 
 <ul class="sponsors-list sponsor-diamante">
 
-<% for company in @realization: %>
+<% for company in @backstage: %>
   <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
     <a href="<%= company.url %>?utm_source=frontincuiaba2015" class="sponsor-logo sponsor--link" itemprop="url">
       <img src="<%= company.logo %>" alt="<%= company.name %>" class="photo" itemprop="image">
