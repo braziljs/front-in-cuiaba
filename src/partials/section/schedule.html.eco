@@ -1,5 +1,7 @@
 <h2 class="section-title"><%= @labels['schedule'] %></h2>
 <p>Confira aqui a programação para o <%= @conf.name %>.</p>
+<p><small>Observação: Algumas atividades cujo nome real ainda não foi divulgado está representada por algum ícone do futebol.</small></p>
+
 <div class="schedule-tbl">
   <table>
     <thead>
