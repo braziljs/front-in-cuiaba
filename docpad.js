@@ -12,8 +12,8 @@ module.exports = {
       date: "16 de Abril",
       // If your event is free, just comment this line
       price: "R$ 45",
-      venue: "",
-      address: "Arena Pantanal",
+      venue: "Arena Pantanal",
+      address: "Av. Agrícola Paes de Barros",
       city: "Cuiabá",
       state: "MT"
   },
