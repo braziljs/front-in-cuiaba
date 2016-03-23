@@ -13,7 +13,7 @@ module.exports = {
       // If your event is free, just comment this line
       price: "R$ 45",
       venue: "Arena Pantanal",
-      address: "Av. Agrícola Paes de Barros",
+      addess: "Av. Agrícola Paes de Barros",
       city: "Cuiabá",
       state: "MT"
   },
@@ -58,7 +58,7 @@ module.exports = {
     sections: [
         'about',
         'location',
-        //'speakers',
+        'speakers',
         'schedule',
         'sponsors',
         'partners',
@@ -86,10 +86,28 @@ module.exports = {
         description: "Os portões se abrem para o alongamento"
     },
     {
-        name: "Abertura",
+      name: "Abertura",
+      description: "... e o árbitro já está em campo...",
+    }
+    /*
+    Aguardando BIO
+    {
+        name: "Bruno Pacola",
+        photo: "themes/yellow-swan/img/eventhost-pacola.jpg",
         time: "08h10",
-        description: "... e o árbitro já está em campo..."
+        type: "Apresentador",
+        company: "Nuvem Tecnologia",
+        link: {
+          href: "https://twitter.com/bpacola",
+          text: "@bpacola"
+        },
+        presentation: {
+          title: "Abertura",
+          description: "... e o árbitro já está em campo...",
+          time: "08h10"
+        }
     },
+    */
     {
         name: "Welcome Coffee",
         time: "08h20",
@@ -101,9 +119,19 @@ module.exports = {
         description: "Bem, meus caros amigos, estamos aqui para dar início a mais uma partida ..."
     },
     {
-        name: "Suárez",
-        time: "09h40",
-        description: "Rawwwr"
+        name: "Rafael Venson",
+        photo: "themes/yellow-swan/img/speaker-rafael-venson.jpg",
+        bio: "Estudou Ciências Econômicas na Universidade do Estado do Mato Grosso (2006 a 2010) e formou em Gestão Comercial pela UNIRONDON (2012 a 2014), possui certificação em Master e Leader Coaching pela Sociedade Latino Americana de Coaching (SLAC). Durante cinco anos trabalhou no varejo do setor financeiro em três grandes instituições, Bradesco, HSBC e Santander, atuando como gerente de relacionamento em carteiras de alta renda. Em 2014 iniciou sua empresa de consultoria e treinamentos atendendo várias empresas no Mato Grosso com consultoria e treinamentos. Em 2015 ganhou participação na equipe da startup RCF Inovações na qual tem participação e atua como gestor.",
+        company: "Venson Consultoria",
+        link: {
+            href: "https://www.linkedin.com/in/rafaelvenson",
+            text: "@rafavenson"
+        },
+        presentation: {
+            title: "Criatividade não surge por acaso",
+            description: "Existe um mito de que a criatividade surge por acaso. Neste talk iremos mostrar que criatividade não é um mito e sim uma capacidade inata que precisa ser desenvolvida e cuja a utilidade é resolver problemas por meio da combinação de ideias e seguindo etapas de um processo criativo.",
+            time: "09h40"
+        }
     },
     {
         name: "Vampeta",
@@ -116,9 +144,19 @@ module.exports = {
         description: "Fim do primeiro tempo"
     },
     {
-        name: "Cláudio Taffarel",
-        time: "13h00",
-        description: "Sai que é tua!"
+        name: "Gabriel Araujo",
+        photo: "themes/yellow-swan/img/speaker-gabriel-araujo.jpg",
+        bio: "Programador, Gamer & GameDev, Agilista, Filosofo, entusiasta e fomentador da comunidade de software.",
+        company: "SEFAZ/MT",
+        link: {
+            href: "https://twitter.com/gabriel_araujo",
+            text: "@gabriel_araujo"
+        },
+        presentation: {
+            title: "Dialetos, Ferramentas e Interfaces. Uma breve historia da programação.",
+            description: "De forma humorada contar rapidamente como as linguagens de programação acompanharam os paradigmas da computação, e repensar sobre para aonde estamos indo.",
+            time: "13h00"
+        }
     },
     {
         name: "Ronaldinho Gaucho",
