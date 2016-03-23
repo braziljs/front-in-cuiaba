@@ -13,7 +13,7 @@ module.exports = {
       // If your event is free, just comment this line
       price: "R$ 45",
       venue: "Arena Pantanal",
-      addess: "Av. Agrícola Paes de Barros",
+      address: "Av. Agrícola Paes de Barros",
       city: "Cuiabá",
       state: "MT"
   },
@@ -87,8 +87,9 @@ module.exports = {
     },
     {
       name: "Abertura",
+      time: "08h10",
       description: "... e o árbitro já está em campo...",
-    }
+    },
     /*
     Aguardando BIO
     {
