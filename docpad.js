@@ -147,7 +147,7 @@ module.exports = {
     {
         name: "Gabriel Araujo",
         photo: "themes/yellow-swan/img/speaker-gabriel-araujo.jpg",
-        bio: "Programador, Gamer & GameDev, Agilista, Filosofo, entusiasta e fomentador da comunidade de software.",
+        bio: "Desenvolvedor Web, Aplicativos e Jogos, sempre estudando novas linguagens e frameworks. Interessado pelas novas tecnologias moveis e imoveis. Fanático por jogos desde que se conhece por gente. Bacharel em Analise de Sistemas, MBA em Gestão de Projetos e estudante de Filosofia. \"Na regra mais clara, no código mais denso. O bug sucumbira ante minha presença.\"",
         company: "SEFAZ/MT",
         link: {
             href: "https://twitter.com/gabriel_araujo",
