@@ -11,7 +11,7 @@ module.exports = {
       description: "O FrontInCuiabá é um evento que nasceu com o intuito de propagar conhecimento e as novas técnicas para desenvolvimento web. Fazemos parte de um movimento que acontece por muitas cidades brasileiras que por onde passa é um grande sucesso. Abordamos especialmente assuntos Front-End Web e Mobile.",
       date: "16 de Abril",
       // If your event is free, just comment this line
-      price: "R$ 45",
+      price: "R$ 55",
       venue: "Arena Pantanal",
       address: "Av. Agrícola Paes de Barros",
       city: "Cuiabá",
