@@ -160,9 +160,19 @@ module.exports = {
         }
     },
     {
-        name: "Ronaldinho Gaucho",
-        time: "13h50",
-        description: "Faz o sinal do hand-loose"
+        name: "Alvaro Viebrantz",
+        photo: "themes/yellow-swan/img/speaker-alvaro-viebrantz.jpg",
+        bio: "Desenvolvedor web, focado no backend mas entusiasta de tecnologias de frontend. Apaixonado por desenvolvimento de aplicativos mobiles usando tanto tecnologias hibridas e nativas. Language Agnostic.",
+        company: "SEFAZ/MT",
+        link: {
+            href: "https://twitter.com/alvinhuuu",
+            text: "@alvinhuuu"
+        },
+        presentation: {
+            title: "Desenvolvendo Aplicativos com React Native.",
+            description: "React Native foca na eficiência do desenvolvedor entre as diferentes plataformas suportadas, aplicando o famoso 'Learn once, write anywhere'. O Facebook usa React Native em diversos aplicativos em produção e vai continuar investindo nesta tecnologia.",
+            time: "13h50"
+        }
     },
     {
         name: "Neymar Junior",
