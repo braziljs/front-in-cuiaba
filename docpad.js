@@ -211,6 +211,11 @@ module.exports = {
     {
         name: 'Diamante',
         items: [
+            {
+                name: "Gabinete de Assuntos Estratégicos",
+                logo: "themes/yellow-swan/img/backstage-gae.png",
+                url: "http://www.mt.gov.br"
+            }
         ]
     },
     {
@@ -241,6 +246,11 @@ module.exports = {
         url: "http://braziljs.org"
     },
     {
+        name: "yoDojo",
+        logo: "themes/yellow-swan/img/partner-yodojo.jpg",
+        url: "https://www.facebook.com/yohacking"
+    },
+    {
         name: "Eventick",
         logo: "themes/yellow-swan/img/partner-eventick.png",
         url: "http://eventick.com.br/"
@@ -251,12 +261,7 @@ module.exports = {
     {
         name : "Desenvolvedores do Mato Grosso",
         logo: "themes/yellow-swan/img/backstage-devmt.png",
-        url: "#"
-    },
-    {
-        name: "Gabinete de Assuntos Estratégicos",
-        logo: "themes/yellow-swan/img/backstage-gae.png",
-        url: "http://www.mt.gov.br"
+        url: "http://devmt.com.br"
     }
     ],
 
