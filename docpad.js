@@ -160,6 +160,21 @@ module.exports = {
         }
     },
     {
+        name: "Juarez Filho",
+        photo: "themes/yellow-swan/img/speaker-juarezpaf.jpg",
+        bio: "Apaixonado pela Califórnia e pela Web, um explorador que adora contar suas aventuras envolvendo Tecnologia e Produtos do Google. Já participou de equipes notáveis como Enjoei e madewithlove, atualmente passa a maior parte do seus dias escrevendo testes e contribuindo para a comunidade atuando como GDG Organizer e Google Developer Expert.",
+        company: "Google Developer Expert",
+        link: {
+            href: "https://twitter.com/juarezpaf",
+            text: "@juarezpaf"
+        },
+        presentation: {
+            title: "Polymer & Firebase: Componetizando a Web em Tempo Real",
+            description: "Polymer e Web Componentes trazem uma nova forma de construir aplicações Web. Nessa palestra você aprenderá como criar aplicações Web usando o Polymer Starter Kit e ainda armazenar os dados de sua aplicação, gerenciar autenticação do usuário e fazer deploy usando Firebase.",
+            time: "13h50"
+        }
+    },
+    {
         name: "Alvaro Viebrantz",
         photo: "themes/yellow-swan/img/speaker-alvaro-viebrantz.jpg",
         bio: "Desenvolvedor web, focado no backend mas entusiasta de tecnologias de frontend. Apaixonado por desenvolvimento de aplicativos mobiles usando tanto tecnologias hibridas e nativas. Language Agnostic.",
@@ -171,13 +186,8 @@ module.exports = {
         presentation: {
             title: "Desenvolvendo Aplicativos com React Native.",
             description: "React Native foca na eficiência do desenvolvedor entre as diferentes plataformas suportadas, aplicando o famoso 'Learn once, write anywhere'. O Facebook usa React Native em diversos aplicativos em produção e vai continuar investindo nesta tecnologia.",
-            time: "13h50"
+            time: "14h40"
         }
-    },
-    {
-        name: "Neymar Junior",
-        time: "14h40",
-        description: "... e o árbitro marca falta!"
     },
     {
         name: "Intervalo",
