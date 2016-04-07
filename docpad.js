@@ -169,7 +169,7 @@ module.exports = {
             text: "@juarezpaf"
         },
         presentation: {
-            title: "Polymer & Firebase: Componetizando a Web em Tempo Real",
+            title: "Polymer & Firebase: Componentizando a Web em Tempo Real",
             description: "Polymer e Web Componentes trazem uma nova forma de construir aplicações Web. Nessa palestra você aprenderá como criar aplicações Web usando o Polymer Starter Kit e ainda armazenar os dados de sua aplicação, gerenciar autenticação do usuário e fazer deploy usando Firebase.",
             time: "13h50"
         }
