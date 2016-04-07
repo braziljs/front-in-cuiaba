@@ -221,11 +221,6 @@ module.exports = {
     {
         name: 'Diamante',
         items: [
-            {
-                name: "Gabinete de Assuntos Estratégicos",
-                logo: "themes/yellow-swan/img/backstage-gae.png",
-                url: "http://www.mt.gov.br"
-            }
         ]
     },
     {
@@ -243,6 +238,11 @@ module.exports = {
     {
         name: 'Bronze',
         items: [
+            {
+                name: "Código5",
+                logo: "themes/yellow-swan/img/sponsor-codigo5.png",
+                url: "http://codigo5.com.br"
+            }
         ]
     }
 
@@ -250,29 +250,39 @@ module.exports = {
 
     // List of Partners
     partners: [
-    {
-        name: "BrazilJS",
-        logo: "themes/yellow-swan/img/partner-braziljs.png",
-        url: "http://braziljs.org"
-    },
-    {
-        name: "yoDojo",
-        logo: "themes/yellow-swan/img/partner-yodojo.jpg",
-        url: "https://www.facebook.com/yohacking"
-    },
-    {
-        name: "Eventick",
-        logo: "themes/yellow-swan/img/partner-eventick.png",
-        url: "http://eventick.com.br/"
-    },
+        {
+            name: "BrazilJS",
+            logo: "themes/yellow-swan/img/partner-braziljs.png",
+            url: "http://braziljs.org"
+        },
+        {
+            name: "Eventick",
+            logo: "themes/yellow-swan/img/partner-eventick.png",
+            url: "http://eventick.com.br/"
+        },
+        {
+            name: "Venson Consultoria",
+            logo: "themes/yellow-swan/img/partner-venson-consultoria.png",
+            url: "http://vensonconsultoria.com.br/"
+        },
+        {
+            name: "yoDojo",
+            logo: "themes/yellow-swan/img/partner-yodojo.jpg",
+            url: "https://www.facebook.com/yohacking"
+        },
     ],
 
     backstage: [
-    {
-        name : "Desenvolvedores do Mato Grosso",
-        logo: "themes/yellow-swan/img/backstage-devmt.png",
-        url: "http://devmt.com.br"
-    }
+        {
+            name : "Desenvolvedores do Mato Grosso",
+            logo: "themes/yellow-swan/img/backstage-devmt.png",
+            url: "http://devmt.com.br"
+        },
+        {
+            name: "Gabinete de Assuntos Estratégicos",
+            logo: "themes/yellow-swan/img/backstage-gae.png",
+            url: "http://www.mt.gov.br"
+        }
     ],
 
     // Theme path
