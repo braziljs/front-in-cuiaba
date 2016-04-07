@@ -1,4 +1,17 @@
-<h2 class="section-title"><%= @labels['sponsors'] %></h2>
+<!-- BrazilJS snippet -->
+<div id='braziljs-widget-partners'></div>
+<script src='https://braziljs.org/js/widget.js'></script>
+<script>
+    BrazilJS.widget.load('partners', {
+        eventId: '56b4de3be6368eb42d1e7d02',
+        name: 'FrontInCuiaba',
+        theme: 'white',
+        container: document.getElementById('braziljs-widget-partners')
+    });
+</script>
+<!-- end of BrazilJS snippet -->
+
+<h2 class="section-title"><%= @labels['sponsors'] %> - <%= @conf.name %></h2>
 
 <% for sponsorType in @sponsors: %>
 <h3><%= sponsorType.name %></h3>
