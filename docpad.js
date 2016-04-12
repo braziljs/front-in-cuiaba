@@ -282,6 +282,11 @@ module.exports = {
             name: "Casa do Código",
             logo: "themes/yellow-swan/img/partner-casa-do-codigo.png",
             url: "https://www.casadocodigo.com.br"
+        },
+        {
+            name: "Azuris - Learning & Education",
+            logo: "themes/yellow-swan/img/partner-azuris.png",
+            url: "http://www.azuris.com.br/"
         }
     ],
 
