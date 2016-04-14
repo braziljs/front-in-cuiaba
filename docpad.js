@@ -251,6 +251,11 @@ module.exports = {
     {
         name: 'Bronze',
         items: [
+            {
+            name: "TreinaWeb",
+            logo: "themes/yellow-swan/img/sponsor-treinaweb.jpg",
+            url: "https://www.treinaweb.com.br/"
+            },
         ]
     }
 
