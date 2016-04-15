@@ -158,6 +158,21 @@ module.exports = {
         description: "Fim do primeiro tempo"
     },
     {
+        name: "Marina Martinho",
+        photo: "themes/yellow-swan/img/speaker-marina.jpg",
+        bio: "Estudante de Direito da UFMT, Co-founder da Rent 4 Work, engajada em trabalhos voluntários e 2º lugar no SW Insper 2015. Uma menina apaixonada pela vida, por novas experiências, viagens, inovação, empreendedorismo, culinária, baladas, arte, networking e que vive em busca do sonho de fazer a diferença e tornar o mundo bem melhor com iguais oportunidades para todos.",
+        company: "Embaixadora Choice",
+        link: {
+            href: "https://twitter.com/marinamartinho",
+            text: "@marinamartinho"
+        },
+        presentation: {
+            title: "Negócios de Impacto Social",
+            description: "Nesse Talk é feito uma introdução ao tema, com uma abordagem inspiradora e dinâmica a partir de casos e exemplos, além do contexto e conceito de negócios de impacto social, como forma de mudar o mundo!",
+            time: "13h30"
+        }
+    },
+    {
         name: "Juarez Filho",
         photo: "themes/yellow-swan/img/speaker-juarezpaf.jpg",
         bio: "Apaixonado pela Califórnia e pela Web, um explorador que adora contar suas aventuras envolvendo Tecnologia e Produtos do Google. Já participou de equipes notáveis como Enjoei e madewithlove, atualmente passa a maior parte do seus dias escrevendo testes e contribuindo para a comunidade atuando como GDG Organizer e Google Developer Expert.",
