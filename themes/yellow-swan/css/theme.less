@@ -1,0 +1,210 @@
+@import "_mixins.less";
+@import "_variables.less";
+
+/* =============================================================================
+   MAIN LAYOUT
+   ========================================================================== */
+html {
+  font:normal normal 10px/1.2em 'Ubuntu', sans-serif;
+  color:#777;
+}
+
+/* =============================================================================
+   BASIC STYLES
+   ========================================================================== */
+h1, h2, h3, h4, h5, h6 {color:#2b2b2b;}
+
+/* =============================================================================
+   NAVIGATION
+   ========================================================================== */
+nav {background: #0d3b5b;}
+nav ul {float: left;}
+nav .fb-like {
+  float: right;
+  margin-top: 2px;
+}
+.nav-link {
+  display: block;
+  padding: 3px 0;
+  color:#e7e7e7;
+}
+.nav-link:active,
+.nav-link:hover,
+.nav-link:focus,
+.nav-link.current {
+  color:#fff;
+  text-shadow:0 0 3px #fff;
+}
+
+/* =============================================================================
+   HEADER
+   ========================================================================== */
+.header {
+  background-image: url('../img/cover.jpg');
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100% auto;
+  background-attachment: fixed;
+}
+.logo-link, .tagline, .call-action-area .price {
+  color:#fff;
+  text-shadow: 1px 2px 1px rgba(0,0,0,.3);
+}
+.logo-link img {
+  max-width: 100%;
+  height: auto;
+}
+.tagline {font-weight: normal;}
+.call-action-area .price {color:#fff982;}
+.call-action-area .call-action-link, .btn {
+  background-color: #114f7c;
+  background-image: -moz-linear-gradient(top, #114f7c 30%, #092030 150%);
+  background-image: -webkit-linear-gradient(top, #114f7c 30%, #092030 150%);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#114f7c', endColorstr='#092030');
+  background-image: linear-gradient(top, #114f7c 30%, #092030 150%);
+  color:#fff;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,.4), inset 0 -2px 3px 0 #1a262f, inset 0 1px 0 0 #81bce5;
+  border-radius: 40px;
+}
+
+.github-link {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 11;
+}
+
+.github-link img {
+  border: 0;
+}
+
+/* =============================================================================
+   CONTENT
+   ========================================================================== */
+.content a {color:#3586be;}
+.content a:hover, .content a:focus {
+  color:#114f7c;
+  text-decoration: underline;
+}
+
+/* =============================================================================
+   LOCATION
+   ========================================================================== */
+.location-area {
+  background: #e7e7e7;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 300px;
+}
+
+/* =============================================================================
+   SPEAKER
+   ========================================================================== */
+.speakers-name {
+  display: inline-block;
+}
+
+.speaker-photo .photo {
+  border-radius: 50%;
+  box-shadow: 0 0 0 8px rgba(0,0,0,.07);
+  .transition(all 0.3s ease-out);
+}
+.speakers-item:hover .speaker-photo .photo {box-shadow: 0 0 0 8px rgba(0,0,0,.3);}
+.speech-time {
+  color:#fff;
+  background:#2b2b2b;
+  border-radius: 8px;
+}
+.speaker-type {
+  background: #f6f6f6;
+  color: #999;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1;
+  margin-left: 5px;
+  padding: 5px;
+  position: relative;
+  top: -2px;
+}
+.schedule-slot {
+  .speaker-slide:hover {
+    color: #3586be;
+  }
+}
+.speaker-slide:after {
+  background: url("../img/ios7-bolt.png") no-repeat;
+  background-size: 22px;
+  content: "";
+  height: 24px;
+  margin-top: -2px;
+  position: absolute;
+  width: 24px;
+}
+
+/* =============================================================================
+   SCHEDULE
+   ========================================================================== */
+.schedule-tbl {
+  background:#fff;
+  border:1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.15);
+}
+.schedule-tbl table {background:#fff;}
+.schedule-tbl td, .schedule-tbl th {border-bottom:1px solid #e7e7e7;}
+.schedule-tbl tbody tr:nth-child(2n+1) {background:#f6f6f6;}
+.schedule-tbl th {color:#2b2b2b;}
+.schedule-tbl .speaker-photo .photo {box-shadow: 0 0 0 1px rgba(0,0,0,.3);}
+.speakers-company {color:#999;}
+.schedule-slot {color:#2b2b2b;}
+.schedule-tbl tbody tr:hover {background:#fffde1;}
+.schedule-coffee, .schedule-closing, .schedule-lunch, .schedule-other { color:#214f87; }
+.schedule-other .schedule-description {color:#777}
+
+/* =============================================================================
+   SPONSORS
+   ========================================================================== */
+.sponsor--link, .partner-link {
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.15);
+}
+.sponsor--link:hover, .sponsor--link:focus, .partner-link:hover, .partner-link:focus {border-color: #3586be;}
+
+
+/* =============================================================================
+   CONTACT
+   ========================================================================== */
+.form input[type=text], .form input[type=email], .form textarea{
+  color: #777;
+  border: 1px solid #e7e7e7;
+  background: #fff;
+  border-radius: 4px;
+}
+.form input[type=text]:focus, .form input[type=email]:focus, .form textarea:focus {border-color:#aaa;outline:0;}
+
+
+/* =============================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (max-width : 1024px) {
+  .header {
+    background-size: auto 100%;
+  }
+}
+@media only screen and (max-width : 480px) {
+  /* speakers */
+  .speaker-photo .photo {box-shadow: 0 0 0 3px rgba(0,0,0,.07);}
+  .speech-title {font-weight: bolder;}
+  .speech-time {
+    color:#2b2b2b;
+    background: transparent;
+    font-weight: bolder;
+  }
+
+  .github-link { display: none; }
+}
