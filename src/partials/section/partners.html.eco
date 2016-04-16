@@ -7,9 +7,4 @@
         </a>
     </li>
     <% end %>
-    <li class="partner-item">
-        <a class="partner-logo partner-link partner-call" href="mailto:frontincuiaba@gmail.com?subject=Quero%20ser%20um%20Patrocinador">
-        <img src="<%= @getTheme() %>/img/your-logo.jpg" alt="Seja um Patrocinador" class="photo">
-        </a>
-    </li>
 </ul>
